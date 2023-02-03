@@ -1,0 +1,70 @@
+.addnotes{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 20px 20px 0px;
+
+}
+
+.operation{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.note{
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 25px;
+    /* padding: 5px; */
+    overflow-y: scroll;
+}
+
+
+.edit{
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.edit:hover{
+    background-color: white;
+    color: green;
+}
+.delete{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.delete:hover{
+    color: red;
+    background-color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+textarea{
+    height: 70%;
+    width: 100%;
+   -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;  
+    border: none; 
+    resize: none;      
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+.scroll::-webkit-scrollbar {
+   display: none;
+ }
